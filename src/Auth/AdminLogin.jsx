@@ -11,6 +11,8 @@ import { postApi } from "../Utils/API.js";
 import { SERVER_URL, ADMIN_PATH } from "../Utils/URLPath.jsx";
 import logo from "../../public/images/nmimslogo.png";
 
+
+
 const Login = () => {
   const {
     register,
@@ -216,5 +218,8 @@ const Login = () => {
     </>
   );
 };
+
+
+
 
 export default Login;

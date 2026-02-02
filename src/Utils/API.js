@@ -70,10 +70,15 @@ const postApi = async (data, route) => {
     });
 
     return response.data;
+    
   } catch (error) {
     handleApiError(error);
   }
 };
+
+
+
+
 
 // GET API
 const getApi = async (route) => {
